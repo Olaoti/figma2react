@@ -1,0 +1,171 @@
+header {
+    background-color: var(--color-white);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 13rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.8rem;
+}
+
+header .flex {
+    display: flex;
+}
+header .flex>div:not(:last-child){
+    margin-right: 3rem;
+}
+
+
+/***End of header****/
+
+/***Beginning of box1***/
+
+/***for the box 1 background***/
+.ellipse {
+    position: absolute;
+    z-index: 1;
+}
+
+.rectangle {
+    position: absolute;
+    z-index: 1;
+}
+
+.box1 .ellipse.eleven {
+    height: 4rem;
+    width: 8rem;
+    border-radius: 0 0 10rem 10rem;
+    background-color: var(--color-primary2);
+    transform: rotate(15deg);
+    top: 18%;
+    left: 5%;
+}
+
+.box1 .ellipse.three {
+    height: 14rem;
+    width: 10rem;
+    left: 90%;
+    top: 15%;
+    transform: rotate(-70deg);
+}
+
+.box1 .ellipse.five {
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    left: 50%;
+    top: 20%;
+}
+
+.box1 .ellipse.four {
+    height: 4.7rem;
+    width: 4.7rem;
+    border-radius: 50%;
+    top: 80%;
+    left: 70%;
+}
+
+.box1 .ellipse.twelve {
+    width: 3.7rem;
+    height: 1.9rem;
+    border-radius: 0 0 10rem 10rem;
+    left: 27rem;
+    top: 80%;
+    background-color: var(--color-primary2);
+}
+
+.box1 .ellipse.thirteen {
+    height: 2rem;
+    width: 2rem;
+    left: 27rem;
+    top: calc(80% + 1.2rem);
+    transform: rotate(5deg);
+
+}
+
+.box1 .rectangle.five {
+    width: 16.8rem;
+    height: 2.9rem;
+    transform: rotate(23.34deg);
+    top: calc(80% + 2.2rem);
+    left: calc(70% - 12rem);
+}
+
+.box1 .rectangle.six {
+    height: 2rem;
+    width: 10.8rem;
+    left: 2%;
+    top: 14%;
+    transform: rotate(-46deg);
+}
+
+.box1 .rectangle.four {
+    width: 20rem;
+    height: 3rem;
+    left: 83%;
+    top: 14%;
+    transform: rotate(-30deg);
+}
+
+.box1 .rectangle.seven {
+    width: 5.6rem;
+    height: 1rem;
+    left: 48.5%;
+    top: 19%;
+    transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
+}
+
+.box1 .ellipse.three svg circle {
+    fill: none;
+    stroke: var(--color-primary2);
+    stroke-width: 28;
+    transform: translate(15px, 15px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+}
+
+.box1 .ellipse.thirteen svg circle {
+    fill: none;
+    stroke: var(--color-primary4);
+    stroke-width: 14;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 122;
+}
+
+/***end of background***/
+ .box1 {
+    background-color: var(--color-white);
+    border-bottom-left-radius: 80px;
+    position: relative;
+    text-align: left;
+}
+
+ .box1 .innerbox {
+    padding: 22rem 26rem 20rem;
+    z-index: 9;
+
+}
+
+ .box1 .boxhead {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+ .box1 .boxcontent {
+    font-size: 2rem;
+    margin: 1% auto;
+}
+
+.connect {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,89 @@
+.samples>div {
+    margin: 14.2rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+}
+
+.samples>div .wordy {
+    margin: 2.4rem 2.2rem;
+}
+
+.samples>div .left.wordy {
+    padding-right: 2.4rem;
+}
+
+.samples img {
+    height: 44.8rem;
+    max-width: 54.4rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.samples .head {
+    font-weight: 700;
+    color: var(--color-neutrals1);
+    font-size: 4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 0.9rem;
+    line-height: 52px;
+}
+
+.samples .samflex {
+    display: flex;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+.samples .samflex>div:not(:last-child){
+    margin-right: 1.2rem;
+}
+.samples .samflex .word {
+    font-weight: 500;
+    color: var(--color-neutrals);
+    text-transform: uppercase;
+}
+
+.samples .samflex .des,
+.samples .samflex .year {
+    font-weight: 400;
+    color: var(--color-neutals6);
+}
+
+.samples .samflex .circle {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--color-neutralsn);
+}
+
+.samples>div .body {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: var(--color-neutrals);
+}
+
+.samples>div .langflex {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-top: 2.8rem;
+    color: var(--color-primary);
+}
+.samples>div .langflex>div:not(:last-child){
+    margin-right: 0.8rem;
+}
+.samples>div .langflex>div {
+    padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    width: max-content;
+    background-color: var(--color-primary4);
+    border-radius: 0.8rem;
+}
